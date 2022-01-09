@@ -17,8 +17,8 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xs
 <properties>
 <!-- Optional URL to server. Default value is http://localhost:9000 -->
 <sonar.host.url>http://localhost:9000</sonar.host.url>
-<sonar.projectKey>myapp</sonar.projectKey>
-<sonar.login>50c0f262ee0f5907b10d87b2ccfaebc428b29bd7</sonar.login>
+<sonar.projectKey>SonarKey</sonar.projectKey>
+<sonar.login>f504dd8756c007590ee947d44f70801e556a15ce</sonar.login>
  <sonar.java.coveragePlugin>jacoco</sonar.java.coveragePlugin>
  <sonar.coverage.jacoco.xmlReportPaths>${project.build.directory}\jacoco-it.exec</sonar.coverage.jacoco.xmlReportPaths>
 </properties>
